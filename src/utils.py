@@ -1,5 +1,6 @@
 def add(*args):
     """Return the sum of all numbers in args."""
+    print("DEBUG:add called")
     total = 0
     for x in args:
         total += x
